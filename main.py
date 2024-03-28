@@ -33,3 +33,4 @@ if __name__ == "__main__":
     arg = parser.parse_args()
     
     print(check_password(arg.password))
+    
