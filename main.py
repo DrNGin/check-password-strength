@@ -31,3 +31,5 @@ if __name__ == "__main__":
     
     parser.add_argument("password", type=str, help="Your Password")
     arg = parser.parse_args()
+    
+    print(check_password(arg.password))
